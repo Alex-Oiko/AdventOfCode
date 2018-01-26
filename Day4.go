@@ -53,7 +53,7 @@ func partTwo(){
 
 	var valid_inputs = 0
 	for f:=0; f<len(inputs); f++ {
-		var words= strings.Split(inputs[f], " ")
+		var words = strings.Split(inputs[f], " ")
 
 		var skip bool = false
 		for i := 0; i < len(words); i++ {
